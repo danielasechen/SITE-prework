@@ -39,34 +39,41 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-![](your-link-here)
+
+![](https://i.imgur.com/FIf5DvI.gif)
+
 
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-I made use of the linked w3schools.com reference pages, and got help from the following StackOverflow questions:
-https://stackoverflow.com/questions/30008510/how-to-display-the-users-game-score-on-screen-in-realtime-instead-of-in-an-ale
-https://stackoverflow.com/questions/23025867/game-timer-javascript
+
+    I made use of the linked w3schools.com reference pages, and got help from the following StackOverflow questions:
+
+    https://stackoverflow.com/questions/30008510/how-to-display-the-users-game-score-on-screen-in-realtime-instead-of-in-an-ale
+
+    https://stackoverflow.com/questions/23025867/game-timer-javascript
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-Implementing the game timer feature definitely forced me to put my debugging skills to work. At first, the timer would go off as soon as I pressed start, and the alert it generated would force me to reload the page in order to return to my code.
-I suspected that I must have set the time to wait parameter too low, so I added a new alert that printed out the value I had given as that parameter. Using this strategy, I determined a reasonable timer value and prevented the timer from immediately ending the game.
-Still, after a while, I realized that my current timer did end the game when time ran out, but I could not use it to display the time on the screen, which left the player with no way to know how much time they actually had. Knowing I wouldn't be satisfied with
-a half-complete timer, I turned to the internet, and found a StackOverflow article (linked above) on a similar topic. With that code as a reference, I was able to design the timer with SetInterval and implement a countdown on the screen just as I had imagined.
-I finally relied on documentation from W3Schools to figure out how to change the HTML display for both my timer and the mistake counter. After struggling with the timer for a little over an hour, I'm proud that I was able to use standard debugging strategies and 
-documentation and take advantage of online resources like StackOverflow to create a fully functional game. 
+
+    Implementing the game timer feature definitely forced me to put my debugging skills to work. At first, the timer would go off as soon as I pressed start, and the alert it generated would force me to reload the page in order to return to my code. I suspected that I must have set the time to wait parameter too low, so I added a new alert that printed out the value I had given as that parameter. Using this strategy, I determined a reasonable timer value and prevented the timer from immediately ending the game.
+    
+    Still, after a while, I realized that my current timer did end the game when time ran out, but I could not use it to display the time on the screen, which left the player with no way to know how much time they actually had. Knowing I wouldn't be satisfied with a half-complete timer, I turned to the internet, and found a StackOverflow article (linked above) on a similar topic. With that code as a reference, I was able to design the timer with SetInterval and implement a countdown on the screen just as I had imagined. I finally relied on documentation from W3Schools to figure out how to change the HTML display for both my timer and the mistake counter.
+    
+    After struggling with the timer for a little over an hour, I'm proud that I was able to use standard debugging strategies and  documentation and take advantage of online resources like StackOverflow to create a fully functional game. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-I'm curious as to how security is implemented. I used the "inspect element" option on Chrome to view console.log printouts, which first made me curious about whether all a webpage's HTML code is just viewable to anyone who visits, or, if there were some text or section
-of the page that a developer didn't want the public to see, how they would go about doing that. I doubt the workings of a memory game are valuable to anyone, but if a webpage were to store information like email addresses and credit card digits, how would a developer
-protect that information from outsiders?
-I'm also curious about what strategies web developers use to make their sites popular, or how they optimize their search engine hits. For example, if I created a fantastic Simon Says game, and I wanted to get millions of players, how could I get my game to be the first
-result on Google for "memory game"?
-Lastly, how do web developers optimize their pages? I imagine that if my game had a lot more to display, the runtime would slow down considerably. What are the strategies to optimize runtime, prevent lag, etc.?
+
+    I'm curious as to how security is implemented. I used the "inspect element" option on Chrome to view console.log printouts, which first made me curious about whether all a webpage's HTML code is just viewable to anyone who visits, or, if there were some text or section of the page that a developer didn't want the public to see, how they would go about doing that. I doubt the workings of a memory game are valuable to anyone, but if a webpage were to store information like email addresses and credit card digits, how would a developer protect that information from outsiders?
+    
+    I'm also curious about what strategies web developers use to make their sites popular, or how they optimize their search engine hits. For example, if I created a fantastic Simon Says game, and I wanted to get millions of players, how could I get my game to be the first result on Google for "memory game"?
+
+    Lastly, how do web developers optimize their pages? I imagine that if my game had a lot more to display, the runtime would slow down considerably. What are the strategies to optimize runtime, prevent lag, etc.?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-I would first like to "set" the layout of the screen so that when it is stretched or compressed, the four buttons remain in the 2x2 pattern and rescale based on screen width. Similarly, I noticed that my "mistakes" and "time remaining" text overlap when the screen is very narrow, so I would implement some restrictions to fix that.
-Feature-wise, I would love to add a (colorful!) progress bar that increases as you guess each round correctly. Finally, if time permitted, I would love to add more exciting victory and loss messages that appear over the center of the game page, rather than a simple website alert.
+
+    I would first like to "set" the layout of the screen so that when it is stretched or compressed, the four buttons remain in the 2x2 pattern and rescale based on screen width. Similarly, I noticed that my "mistakes" and "time remaining" text overlap when the screen is very narrow, so I would implement some restrictions to fix that.
+
+    Feature-wise, I would love to add a (colorful!) progress bar that increases as you guess each round correctly. Finally, if time permitted, I would love to add more exciting victory and loss messages that appear over the center of the game page, rather than a simple website alert.
 
 
 
