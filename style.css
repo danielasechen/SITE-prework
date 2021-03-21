@@ -1,0 +1,111 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  color: pink;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#startBtn, #stopBtn {
+  padding: 10px;
+  font-family: verdana;
+  font-size: 16px;
+  font-weight: 550;
+  border-radius: 6px;
+  opacity: 0.7;
+  transition-duration: 0.4s;
+}
+
+#startBtn:hover, #stopBtn:hover {
+  opacity: 1;
+  cursor: pointer;
+  
+}
+
+
+#gameButtonArea {
+  padding-top: 15px;
+}
+
+
+#gameButtonArea {
+  padding-top: 15px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover {
+  cursor: pointer;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button1:active, #button1.lit {
+  background: url("https://cdn.glitch.com/731b166d-5c99-4e3e-b417-66992e84b71d%2Fkiwi.jpg?v=1616118785981")
+}
+
+
+#button2 {
+  background: lightblue;
+}
+
+#button2:active, #button2.lit {
+  background: url("https://cdn.glitch.com/731b166d-5c99-4e3e-b417-66992e84b71d%2Fblueberries.jpg?v=1616118313650");
+}
+
+
+#button3 {
+  background: pink;
+}
+
+#button3:active, #button3.lit {
+  background: url("https://cdn.glitch.com/731b166d-5c99-4e3e-b417-66992e84b71d%2Fstrawberries.jpg?v=1616118472100");
+}
+
+
+#button4 {
+  background: lightyellow;
+}
+
+#button4:active, #button4.lit {
+  background: url("https://cdn.glitch.com/731b166d-5c99-4e3e-b417-66992e84b71d%2Flemon.jpg?v=1616118632114")
+}
+
+
+#mistakes {
+  float: right;
+  padding-right: 10px;
+}
+
+#timer {
+  clear: right;
+  float: right;
+  margin-top: -15px;
+  padding-right: 10px;
+}
+
+
+
+
+
